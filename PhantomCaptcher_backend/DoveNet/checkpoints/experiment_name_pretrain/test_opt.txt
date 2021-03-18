@@ -1,0 +1,42 @@
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+             dataset_mode: iharmony4                     	[default: aligned]
+             dataset_root: /content/drive/Shareddrives/幻影捕手/AI班團專_幻影捕手/資料集/Improving_the_Harmony_of_the_Composite_Image/iHarmony4	[default: <path to iHarmony4 dataset>]
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: 0                             
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 4                             
+                  isTrain: False                         	[default: None]
+                 is_train: True                          
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: dovenet                       	[default: test]
+               n_layers_D: 3                             
+                     name: experiment_name_pretrain      	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: s2ad                          	[default: unet_256]
+       new_dataset_option: 2.0                           
+                      ngf: 64                            
+               no_dropout: False                         
+                  no_flip: True                          	[default: False]
+                     norm: batch                         
+                    ntest: inf                           
+                 num_test: 7404                          
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: none                          	[default: resize_and_crop]
+              results_dir: ./results/                    
+           serial_batches: False                         
+                   suffix:                               
+                  verbose: False                         
+----------------- End -------------------

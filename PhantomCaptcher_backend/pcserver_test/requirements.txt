@@ -1,0 +1,11 @@
+# screenpoint==0.1.1
+# photoshop-connection==0.1.1
+Flask==1.1.1
+# flask-cors==3.0.8
+# pyscreenshot==1.0
+Pillow==7.1.2
+requests==2.23.0
+# cloudstorage==0.10.1
+
+
+# ipykernel==4.8.0
